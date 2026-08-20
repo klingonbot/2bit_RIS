@@ -1,6 +1,9 @@
+
 # Compact Varactor-Controlled 2-Bit RIS Based on an ELC Resonator
 
 A compact, ultrathin, varactor-controlled 2-bit Reconfigurable Intelligent Surface (RIS) built on an electric-inductor-capacitor (ELC) resonator unit cell. The design achieves a thickness below λ₀/20 at 5 GHz, an operating bandwidth of approximately 250 MHz, and an average reflection amplitude of about −3 dB, with all unit cells electrically interconnected to remove the need for a separate biasing layer.
+
+<img width="1042" height="677" alt="bf16c21ced19494b3e1e9abf48f0e0b5947b012f" src="https://github.com/user-attachments/assets/3d8fcac0-8b09-4377-b5db-35a3f29ce212" />
 
 ## Overview
 
@@ -24,6 +27,10 @@ The proposed unit cell integrates a split-ring structure with an ELC resonator a
 - **Biasing:** Fully interconnected unit cells; no separate bias layer required
 - **Validation:** Equivalent circuit model (ECM) shows good agreement with full-wave HFSS simulation
 
+
+<img width="707" height="328" alt="image" src="https://github.com/user-attachments/assets/eaf83424-6ad7-4ee9-8e13-d977cd71c724" />
+
+
 ### Functional States
 
 | Bias Voltage | Varactor Capacitance | ∠(S₁₁) | Code |
@@ -40,6 +47,9 @@ The proposed unit cell integrates a split-ring structure with an ELC resonator a
 - **Air gap:** h₂ = 0.9 mm between substrate and ground plane, for bandwidth enhancement
 - **Tuning element:** Varactor diode SMV2019-040LF (Lᵥ = 0.45 nH, Rᵥ = 4.8 Ω, Cᵥ = 0.3–2.22 pF)
 - **Biasing chokes:** 3.5 nH inductors (LQP03HQ3N5C02D) to block high-frequency currents from entering bias lines
+
+- <img width="1527" height="478" alt="image" src="https://github.com/user-attachments/assets/90aba472-6d17-4968-90cd-f6b77cbb2f54" />
+
 
 
 ## Applications
